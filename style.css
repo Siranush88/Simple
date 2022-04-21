@@ -56,8 +56,8 @@ h5.style1 {
 }
 
 h5.style2 {
-    font-family: 'Roboto Condensed';
-    color: #0F0F0F;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
     font-weight: bold;
     font-size: 15px;
 }
@@ -137,6 +137,7 @@ header nav {
 header nav a {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
+    font-size: 15px;
     color: #AFAF84;
 }
 
@@ -195,13 +196,16 @@ header nav a:hover {
 
 /*section2*/
 
+.section2 {
+    border-bottom: 5px solid #9FBE61;
+}
+
 .section2 h3 {
     border-bottom: 2px solid #9FBE61;
     padding-bottom: 20px;
 }
 
-.section2 div.dataSection2 {
-    
+.section2 div.dataSection2 {   
     padding-top: 20px;
 }
 .sectionContainer2 {
@@ -221,6 +225,10 @@ header nav a:hover {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     margin-bottom: 15px;
+}
+
+.section2  ul.list2 li:nth-child(2) {
+    background-color: #D8D8D8;
 }
 
 section.section2 ul.list2 {
@@ -251,9 +259,10 @@ section.section2 ul.list2 li {
 }
 
 
-section.section2 div.news h4 {
+section.section2 aside.news h4 {
     background-color: grey;
     padding: 10px 0 10px 20px;
+    border-bottom: 1px ridge #5F5F5F;
 }
 
 .sectionContainer2 div.infoSection2 {
@@ -261,7 +270,7 @@ section.section2 div.news h4 {
     margin-right: 60px;
 }
 
-.sectionContainer2 div.news {
+.sectionContainer2 aside.news {
     width: 35%;
 }
 
